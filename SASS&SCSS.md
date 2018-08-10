@@ -1,3 +1,8 @@
+В SASS   
+`{}` и `;` не нужны 
+
+---
+
 Переменные   
 `$var_name: value ;` - инициализация переменной
 
@@ -42,7 +47,7 @@ Element state
 
 ---
 
-if & @if   
+Отличие if от @if   
 `if ()` - работает так же как в языках программирования   
 `@if` - добавляет стили только если данный @if возвращает true
 
@@ -53,12 +58,12 @@ if & @if
 
 ---
 
-@for   
+Цикл @for   
 `@for $i from 1 through 3` - цикл на 3 повторения
 
 ---
 
-@each   
+Цикл @each   
 @each $animal in puma, sea-slug, egret, salamander {   
   .#{$animal}-icon {   
     background-image: url('/images/#{$animal}.png');   
@@ -69,12 +74,12 @@ if & @if
 
 ---
 
-@while   
+Цикл @while   
 `@while $i > 0` - цикл пока не выполнится условие   
 
 ---
 
-@functions   
+Функции   
 @function grid-width($n)   
 {   
  code   
