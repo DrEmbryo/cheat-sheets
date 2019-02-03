@@ -14,9 +14,9 @@
 ---
 
 Изменение таблиц   
-`ALTER TABEL tabel_name ADD name_of_new_col VARCHAR;` - добавить колонку в таблицу   
-`ALTER TABEL tabel_name MODIFY COLUM name_of_cal INT(max_char);` - изменть колонку   
-`ALTER TABEL tabel_name DROP COLUM name_of_cal;` - удалить колонку   
+`ALTER TABLE tabel_name ADD name_of_new_col VARCHAR;` - добавить колонку в таблицу   
+`ALTER TABLE tabel_name MODIFY COLUMN name_of_cal INT(max_char);` - изменть колонку   
+`ALTER TABLE tabel_name DROP COLUMN name_of_cal;` - удалить колонку   
 
 ---
 
